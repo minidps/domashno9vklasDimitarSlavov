@@ -1,9 +1,10 @@
+#tazi funkciq subira elementite na spisuk
 def sum_of_list(lst):
     total = 0
     for num in lst:
         total += num
     return total
-
+#tazi funkciq subira elementite na spisuk izpolzvaiki rekursiq
 def recursive_sum(lst):
     if not lst:
         return 0

@@ -1,6 +1,7 @@
+#tazi funkciq obrushta spisuk izpolzvaiki slicing
 def flip_list(lst):
     return lst[::-1]
-
+#tazi funkciq obrushta spisuk izpolzvaiki rekursiq
 def flip_list_recursion(lst):
     if not lst:
         return lst
